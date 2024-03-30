@@ -1,0 +1,26 @@
+.nav__bar-container {
+  display: flex;
+  gap: 64px;
+  margin-top: 36px;
+}
+
+.nav__bar-nav-links {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* responsiveness of nav bar */
+
+@media screen and (max-width: 572px) {
+  .nav__bar-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav__bar-container {
+    display: none;
+  }
+}

@@ -1,0 +1,34 @@
+.contact__us-container {
+  text-align: start;
+}
+
+.footer__contact-description {
+  font-size: 12px;
+}
+
+.contact__us-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__us-details p {
+  margin: 2px 0;
+  padding: 0;
+}
+
+.country__us-flag {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.country__flag-country-flag {
+  display: flex;
+}
+
+.diamond-box {
+  width: 5px;
+  height: 5px;
+  background: white;
+  transform: rotate(45deg);
+}

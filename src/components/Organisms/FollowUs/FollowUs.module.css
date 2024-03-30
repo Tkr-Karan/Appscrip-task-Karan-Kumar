@@ -1,0 +1,38 @@
+.follow__us-container {
+  text-align: start;
+  padding-right: 76px;
+}
+
+.follow__us-social-icon {
+  display: flex;
+  gap: 8px;
+}
+
+.follow__us-icon {
+  cursor: pointer;
+}
+
+.follow__us-metta-accept {
+  margin-top: 24px;
+}
+
+.follow__us-payments-gateway {
+  display: flex;
+  gap: 8px;
+}
+
+.follow__us-payment {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 572px) {
+  .follow__us-payment img {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .follow__us-payment img {
+    width: 50px;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__contact-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 572px) {
+  .footer__contact-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer__contact-container {
+    flex-direction: column;
+  }
+}

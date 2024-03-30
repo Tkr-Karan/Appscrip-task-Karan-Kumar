@@ -1,0 +1,32 @@
+.footer__link-meta-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link-meta-and-quick {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 572px) {
+  .footer__link-meta-container {
+    flex-direction: column;
+  }
+
+  .footer__link-meta-and-quick {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__link-meta-container {
+    flex-direction: column;
+  }
+
+  .footer__link-meta-and-quick {
+    flex-direction: column;
+    width: 100%;
+  }
+}
